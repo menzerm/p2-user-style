@@ -1,3 +1,65 @@
+a:link,
+a:visited{
+	color: steelblue;
+	text-decoration: none;
+}
+a:hover,
+a:active{
+	color: steelblue;
+	text-decoration: underline;
+}
+
+body {
+	background: url('../img/pw_pattern.png');
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+	color:#1B6017;
+	font-family: 'Roboto';
+}
+
+.joseph img{
+	height:20%;
+	width: 20%;
+	position: relative;
+}
+.logo img{
+	position: block;
+}
+.masthead{
+	position: absolute;
+}
+.color-1{
+	background: #1B6017;
+}
+.color-2{
+	background: #172E60;
+}
+.color-3{
+	background: steelblue;
+}
+.pattern-1{
+	background: url('../img/pw_pattern.png');
+}
+.pattern-2{
+	background: url('../img/green_cup.png');
+}
+
+.button{
+	background: #172E60;
+	border-radius: 4px;
+	margin: 0.2em;
+	padding: 1em;
+}
+.button:hover{
+	background: steelblue;
+	color:#172E60;
+}
+.button a:hover,
+a:active {
+	color:#172E60;
+	text-decoration: none;
+}
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -14,15 +76,9 @@ section {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 2px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
-}
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	height: 75px;
+	width: 75px;
 }
