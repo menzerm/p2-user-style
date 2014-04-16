@@ -5,30 +5,34 @@ a:visited{
 }
 a:hover,
 a:active{
-	color: steelblue;
-	text-decoration: underline;
+	color: #172E60;
+	text-decoration: none;
 }
 
 body {
 	background: url('../img/pw_pattern.png');
 	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+    line-height: 1;
 }
 h1, h2, h3{
 	color:#1B6017;
 	font-family: 'Roboto';
 }
 
-.joseph img{
-	height:20%;
-	width: 20%;
-	position: relative;
+section {
+  margin-bottom: 2em;
 }
-.logo img{
-	position: block;
+
+.floatl{
+	float:left;
 }
-.masthead{
-	position: absolute;
+
+.floatr {
+  float:right;
 }
+
+
 .color-1{
 	background: #1B6017;
 }
@@ -39,30 +43,32 @@ h1, h2, h3{
 	background: steelblue;
 }
 .pattern-1{
-	background: url('../img/pw_pattern.png');
+	background: url('../img/pw_pattern.png') top left repeat;
 }
 .pattern-2{
-	background: url('../img/green_cup.png');
+	background: url('../img/green_cup.png') top left repeat;
+}
+
+.pattern-3{
+	background: url('../img/wavegrid.png') top left repeat;
 }
 
 .button{
 	background: #172E60;
 	border-radius: 4px;
-	margin: 0.2em;
-	padding: 1em;
+	margin: 0.1em;
+	margin-top:1em;
+	padding: .5em;
 }
 .button:hover{
 	background: steelblue;
 	color:#172E60;
 }
+
 .button a:hover,
 a:active {
 	color:#172E60;
 	text-decoration: none;
-}
-/* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
 }
 
 /* Layout for Style Tile*/
@@ -77,6 +83,7 @@ section {
 .pattern-2,
 .pattern-3 {
 	border: 2px solid #000;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
 	float: left;
 	margin: 0 10px;
 	height: 75px;
